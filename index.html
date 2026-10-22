@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Optics demos</title>
+<style>
+  :root{color-scheme:dark}
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;background:#05070c;color:#e9eefc;
+    font:400 16px/1.55 -apple-system,BlinkMacSystemFont,"SF Pro Text",Helvetica,Arial,sans-serif;
+    display:flex;align-items:center;justify-content:center;padding:28px}
+  main{width:100%;max-width:560px}
+  h1{font-size:13px;letter-spacing:.34em;text-transform:uppercase;color:rgba(233,238,252,.55);font-weight:600;margin:0 0 26px}
+  a.card{display:block;text-decoration:none;color:inherit;padding:20px 22px;margin-bottom:14px;
+    border:1px solid rgba(255,255,255,.10);border-radius:18px;
+    background:linear-gradient(180deg,rgba(255,255,255,.055),rgba(255,255,255,.018));
+    transition:transform .18s ease,border-color .18s ease}
+  a.card:active{transform:scale(.985);border-color:rgba(140,190,255,.45)}
+  .t{font-size:19px;font-weight:600;letter-spacing:.01em;margin-bottom:5px}
+  .d{font-size:14px;color:rgba(200,214,240,.62)}
+  .tag{float:right;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:rgba(150,190,255,.7);padding-top:5px}
+  footer{margin-top:24px;font-size:12px;color:rgba(200,214,240,.35);letter-spacing:.04em}
+</style>
+</head>
+<body>
+<main>
+  <h1>Optics study</h1>
+  <a class="card" href="/prism.html"><span class="tag">three.js</span><div class="t">Prism</div><div class="d">White beam entering a glass prism, rainbow fan on exit, bloom sheath.</div></a>
+  <a class="card" href="/mirror.html"><span class="tag">three.js</span><div class="t">Mirror</div><div class="d">Hard reflection off a polished surface, single specular hotspot.</div></a>
+  <a class="card" href="/optics.html"><span class="tag">variant</span><div class="t">Optics Study v2</div><div class="d">Second take on the same idea, tighter framing and different bloom.</div></a>
+  <footer>Drag to orbit &middot; pinch or scroll to zoom</footer>
+</main>
+</body>
+</html>
